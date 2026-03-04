@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard | LocalLoop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="js/theme.js"></script>
+<body>
+
+<div class="dashboard-layout">
+
+  <aside class="sidebar">
+    <div class="logo">LocalLoop</div>
+    <nav>
+      <a href="dashboard.html" class="active">🏠 Dashboard</a>
+      <a href="events.html">📅 Events</a>
+      <a href="stats.html">📊 Stats</a>
+      <a href="setting.html">⚙ Settings</a>
+      <a href="index.html" class="logout">🚪 Logout</a>
+    </nav>
+  </aside>
+
+
+  <main class="dashboard-content">
+
+    <header class="dashboard-header">
+      <h1>Welcome Back 👋</h1>
+      <p>Here’s what’s happening in your community.</p>
+    </header>
+
+ 
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <h2>24</h2>
+        <p>Active Events</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>152</h2>
+        <p>Total Volunteers</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>340</h2>
+        <p>Volunteer Hours</p>
+      </div>
+
+      <div class="stat-card highlight">
+        <h2>+12%</h2>
+        <p>Growth This Month</p>
+      </div>
+
+    </section>
+
+    
+    <section class="quick-actions">
+      <h2>Quick Actions</h2>
+      <div class="action-buttons">
+        <a href="create-event.html" class="button primary" id="createEventBtn">
+          ➕ Create Event
+        </a>
+        <a href="events.html" class="button secondary">🔍 Browse Events</a>
+      </div>
+    </section>
+
+
+    <section class="recent-activity">
+      <h2>Recent Activity</h2>
+
+      <div class="activity-item">
+        <p><strong>Park Cleanup</strong> event created</p>
+        <span>2 hours ago</span>
+      </div>
+
+      <div class="activity-item">
+        <p><strong>John Doe</strong> joined Food Drive</p>
+        <span>5 hours ago</span>
+      </div>
+
+      <div class="activity-item">
+        <p><strong>15 volunteers</strong> registered today</p>
+        <span>Today</span>
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+</body>
+</html>
+<script src="js/dashboard.js"></script>

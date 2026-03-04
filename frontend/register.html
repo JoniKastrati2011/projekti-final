@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - LocalLoop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="js/theme.js"></script>
+<body class="centered">
+
+<div class="card">
+    <h2>Create Account</h2>
+
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+
+    <div class="role-select">
+        <label class="role-card">
+            <input type="radio" name="role" value="organizer" checked>
+            <div>
+                <h3>Organizer</h3>
+                <p>Create and manage events</p>
+            </div>
+        </label>
+
+        <label class="role-card">
+            <input type="radio" name="role" value="volunteer">
+            <div>
+                <h3>Volunteer</h3>
+                <p>Join events and help</p>
+            </div>
+        </label>
+    </div>
+
+    <button onclick="register()" class="btn-primary">Register</button>
+
+    <p class="small-link">
+        Already have an account? <a href="login.html">Login</a>
+    </p>
+</div>
+
+<script src="js/auth.js"></script>
+</body>
+</html>

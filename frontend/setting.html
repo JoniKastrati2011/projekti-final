@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Settings | LocalLoop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="dashboard-layout">
+
+  <aside class="sidebar">
+    <div class="logo">LocalLoop</div>
+    <nav>
+      <a href="index.html">🏠 Home</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="events.html">📅 Events</a>
+      <a href="stats.html">📈 Stats</a>
+      <a href="setting.html" class="active">⚙ Settings</a>
+    </nav>
+  </aside>
+
+  <main class="dashboard-content">
+    <h1 class="section-title">Settings</h1>
+
+    <div class="card">
+      <h3>Appearance</h3>
+      <button class="button primary" onclick="setDark()">Dark Mode</button>
+      <button class="button outline" onclick="setLight()">Light Mode</button>
+    </div>
+  </main>
+
+</div>
+
+<script src="js/theme.js"></script>
+
+</body>
+</html>

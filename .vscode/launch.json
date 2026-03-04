@@ -1,0 +1,12 @@
+{
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open register.html",
+            "file": "c:\\Users\\Admin\\Desktop\\projekti-final\\frontend\\register.html"
+        }
+    ]
+}

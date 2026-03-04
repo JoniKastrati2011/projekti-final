@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stats | LocalLoop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<script src="js/theme.js"></script>
+<script src="js/stats.js"></script>
+<body>
+
+<div class="dashboard-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">LocalLoop</div>
+    <nav>
+      <a href="index.html">🏠 Home</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+      <a href="events.html">📅 Events</a>
+      <a href="stats.html" class="active">📈 Stats</a>
+      <a href="setting.html">⚙ Settings</a>
+    </nav>
+  </aside>
+
+  <!-- CONTENT -->
+  <main class="dashboard-content">
+  <h1 class="section-title">Community Statistics 📊</h1>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <h2 id="totalVolunteers">0</h2>
+      <p>Total Volunteers</p>
+    </div>
+
+    <div class="stat-card">
+      <h2 id="totalEvents">0</h2>
+      <p>Active Events</p>
+    </div>
+
+    <div class="stat-card">
+      <h2 id="totalHours">0</h2>
+      <p>Volunteer Hours</p>
+    </div>
+  </div>
+
+  <div class="grid" style="margin-top:40px;">
+    <div class="card">
+      <h3>Monthly Volunteer Growth</h3>
+      <canvas id="volunteerChart"></canvas>
+    </div>
+
+    <div class="card">
+      <h3>Event Categories</h3>
+      <canvas id="eventChart"></canvas>
+    </div>
+  </div>
+</main>
+</div>
+
+</body>
+</html>
